@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		694A32A92649854E001398F7 /* CardImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694A32A82649854E001398F7 /* CardImageView.swift */; };
+		694A32B4264988F5001398F7 /* VideoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694A32B3264988F5001398F7 /* VideoRow.swift */; };
 		6995D3E226497EAB0039CF92 /* learm_swiftioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995D3E126497EAB0039CF92 /* learm_swiftioApp.swift */; };
 		6995D3E426497EAB0039CF92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995D3E326497EAB0039CF92 /* ContentView.swift */; };
 		6995D3E626497EAC0039CF92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6995D3E526497EAC0039CF92 /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		694A32A82649854E001398F7 /* CardImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageView.swift; sourceTree = "<group>"; };
+		694A32B3264988F5001398F7 /* VideoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRow.swift; sourceTree = "<group>"; };
 		6995D3DE26497EAB0039CF92 /* learm-swiftio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "learm-swiftio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6995D3E126497EAB0039CF92 /* learm_swiftioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learm_swiftioApp.swift; sourceTree = "<group>"; };
 		6995D3E326497EAB0039CF92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +76,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		694A32A726498353001398F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6995D3E326497EAB0039CF92 /* ContentView.swift */,
+				694A32A82649854E001398F7 /* CardImageView.swift */,
+				694A32B3264988F5001398F7 /* VideoRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		6995D3D526497EAB0039CF92 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +109,8 @@
 		6995D3E026497EAB0039CF92 /* learm-swiftio */ = {
 			isa = PBXGroup;
 			children = (
+				694A32A726498353001398F7 /* Views */,
 				6995D3E126497EAB0039CF92 /* learm_swiftioApp.swift */,
-				6995D3E326497EAB0039CF92 /* ContentView.swift */,
 				6995D3E526497EAC0039CF92 /* Assets.xcassets */,
 				6995D3EA26497EAC0039CF92 /* Info.plist */,
 				6995D3E726497EAC0039CF92 /* Preview Content */,
@@ -259,7 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				694A32B4264988F5001398F7 /* VideoRow.swift in Sources */,
 				6995D3E426497EAB0039CF92 /* ContentView.swift in Sources */,
+				694A32A92649854E001398F7 /* CardImageView.swift in Sources */,
 				6995D3E226497EAB0039CF92 /* learm_swiftioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

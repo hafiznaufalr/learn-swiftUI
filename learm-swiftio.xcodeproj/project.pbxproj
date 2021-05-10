@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6995D3E226497EAB0039CF92 /* learm_swiftioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995D3E126497EAB0039CF92 /* learm_swiftioApp.swift */; };
+		6995D3E426497EAB0039CF92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995D3E326497EAB0039CF92 /* ContentView.swift */; };
+		6995D3E626497EAC0039CF92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6995D3E526497EAC0039CF92 /* Assets.xcassets */; };
+		6995D3E926497EAC0039CF92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6995D3E826497EAC0039CF92 /* Preview Assets.xcassets */; };
+		6995D3F426497EAC0039CF92 /* learm_swiftioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995D3F326497EAC0039CF92 /* learm_swiftioTests.swift */; };
+		6995D3FF26497EAC0039CF92 /* learm_swiftioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995D3FE26497EAC0039CF92 /* learm_swiftioUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6995D3F026497EAC0039CF92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6995D3D626497EAB0039CF92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6995D3DD26497EAB0039CF92;
+			remoteInfo = "learm-swiftio";
+		};
+		6995D3FB26497EAC0039CF92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6995D3D626497EAB0039CF92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6995D3DD26497EAB0039CF92;
+			remoteInfo = "learm-swiftio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6995D3DE26497EAB0039CF92 /* learm-swiftio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "learm-swiftio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6995D3E126497EAB0039CF92 /* learm_swiftioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learm_swiftioApp.swift; sourceTree = "<group>"; };
+		6995D3E326497EAB0039CF92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6995D3E526497EAC0039CF92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6995D3E826497EAC0039CF92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6995D3EA26497EAC0039CF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6995D3EF26497EAC0039CF92 /* learm-swiftioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "learm-swiftioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6995D3F326497EAC0039CF92 /* learm_swiftioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learm_swiftioTests.swift; sourceTree = "<group>"; };
+		6995D3F526497EAC0039CF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6995D3FA26497EAC0039CF92 /* learm-swiftioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "learm-swiftioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6995D3FE26497EAC0039CF92 /* learm_swiftioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learm_swiftioUITests.swift; sourceTree = "<group>"; };
+		6995D40026497EAD0039CF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6995D3DB26497EAB0039CF92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6995D3EC26497EAC0039CF92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6995D3F726497EAC0039CF92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6995D3D526497EAB0039CF92 = {
+			isa = PBXGroup;
+			children = (
+				6995D3E026497EAB0039CF92 /* learm-swiftio */,
+				6995D3F226497EAC0039CF92 /* learm-swiftioTests */,
+				6995D3FD26497EAC0039CF92 /* learm-swiftioUITests */,
+				6995D3DF26497EAB0039CF92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6995D3DF26497EAB0039CF92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6995D3DE26497EAB0039CF92 /* learm-swiftio.app */,
+				6995D3EF26497EAC0039CF92 /* learm-swiftioTests.xctest */,
+				6995D3FA26497EAC0039CF92 /* learm-swiftioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6995D3E026497EAB0039CF92 /* learm-swiftio */ = {
+			isa = PBXGroup;
+			children = (
+				6995D3E126497EAB0039CF92 /* learm_swiftioApp.swift */,
+				6995D3E326497EAB0039CF92 /* ContentView.swift */,
+				6995D3E526497EAC0039CF92 /* Assets.xcassets */,
+				6995D3EA26497EAC0039CF92 /* Info.plist */,
+				6995D3E726497EAC0039CF92 /* Preview Content */,
+			);
+			path = "learm-swiftio";
+			sourceTree = "<group>";
+		};
+		6995D3E726497EAC0039CF92 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6995D3E826497EAC0039CF92 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6995D3F226497EAC0039CF92 /* learm-swiftioTests */ = {
+			isa = PBXGroup;
+			children = (
+				6995D3F326497EAC0039CF92 /* learm_swiftioTests.swift */,
+				6995D3F526497EAC0039CF92 /* Info.plist */,
+			);
+			path = "learm-swiftioTests";
+			sourceTree = "<group>";
+		};
+		6995D3FD26497EAC0039CF92 /* learm-swiftioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6995D3FE26497EAC0039CF92 /* learm_swiftioUITests.swift */,
+				6995D40026497EAD0039CF92 /* Info.plist */,
+			);
+			path = "learm-swiftioUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6995D3DD26497EAB0039CF92 /* learm-swiftio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6995D40326497EAD0039CF92 /* Build configuration list for PBXNativeTarget "learm-swiftio" */;
+			buildPhases = (
+				6995D3DA26497EAB0039CF92 /* Sources */,
+				6995D3DB26497EAB0039CF92 /* Frameworks */,
+				6995D3DC26497EAB0039CF92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "learm-swiftio";
+			productName = "learm-swiftio";
+			productReference = 6995D3DE26497EAB0039CF92 /* learm-swiftio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6995D3EE26497EAC0039CF92 /* learm-swiftioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6995D40626497EAD0039CF92 /* Build configuration list for PBXNativeTarget "learm-swiftioTests" */;
+			buildPhases = (
+				6995D3EB26497EAC0039CF92 /* Sources */,
+				6995D3EC26497EAC0039CF92 /* Frameworks */,
+				6995D3ED26497EAC0039CF92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6995D3F126497EAC0039CF92 /* PBXTargetDependency */,
+			);
+			name = "learm-swiftioTests";
+			productName = "learm-swiftioTests";
+			productReference = 6995D3EF26497EAC0039CF92 /* learm-swiftioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6995D3F926497EAC0039CF92 /* learm-swiftioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6995D40926497EAD0039CF92 /* Build configuration list for PBXNativeTarget "learm-swiftioUITests" */;
+			buildPhases = (
+				6995D3F626497EAC0039CF92 /* Sources */,
+				6995D3F726497EAC0039CF92 /* Frameworks */,
+				6995D3F826497EAC0039CF92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6995D3FC26497EAC0039CF92 /* PBXTargetDependency */,
+			);
+			name = "learm-swiftioUITests";
+			productName = "learm-swiftioUITests";
+			productReference = 6995D3FA26497EAC0039CF92 /* learm-swiftioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6995D3D626497EAB0039CF92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					6995D3DD26497EAB0039CF92 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					6995D3EE26497EAC0039CF92 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 6995D3DD26497EAB0039CF92;
+					};
+					6995D3F926497EAC0039CF92 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 6995D3DD26497EAB0039CF92;
+					};
+				};
+			};
+			buildConfigurationList = 6995D3D926497EAB0039CF92 /* Build configuration list for PBXProject "learm-swiftio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6995D3D526497EAB0039CF92;
+			productRefGroup = 6995D3DF26497EAB0039CF92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6995D3DD26497EAB0039CF92 /* learm-swiftio */,
+				6995D3EE26497EAC0039CF92 /* learm-swiftioTests */,
+				6995D3F926497EAC0039CF92 /* learm-swiftioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6995D3DC26497EAB0039CF92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6995D3E926497EAC0039CF92 /* Preview Assets.xcassets in Resources */,
+				6995D3E626497EAC0039CF92 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6995D3ED26497EAC0039CF92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6995D3F826497EAC0039CF92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6995D3DA26497EAB0039CF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6995D3E426497EAB0039CF92 /* ContentView.swift in Sources */,
+				6995D3E226497EAB0039CF92 /* learm_swiftioApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6995D3EB26497EAC0039CF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6995D3F426497EAC0039CF92 /* learm_swiftioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6995D3F626497EAC0039CF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6995D3FF26497EAC0039CF92 /* learm_swiftioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6995D3F126497EAC0039CF92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6995D3DD26497EAB0039CF92 /* learm-swiftio */;
+			targetProxy = 6995D3F026497EAC0039CF92 /* PBXContainerItemProxy */;
+		};
+		6995D3FC26497EAC0039CF92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6995D3DD26497EAB0039CF92 /* learm-swiftio */;
+			targetProxy = 6995D3FB26497EAC0039CF92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6995D40126497EAD0039CF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6995D40226497EAD0039CF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6995D40426497EAD0039CF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"learm-swiftio/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "learm-swiftio/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hafiznaufalr.learm-swiftio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6995D40526497EAD0039CF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"learm-swiftio/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "learm-swiftio/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hafiznaufalr.learm-swiftio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6995D40726497EAD0039CF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "learm-swiftioTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hafiznaufalr.learm-swiftioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/learm-swiftio.app/learm-swiftio";
+			};
+			name = Debug;
+		};
+		6995D40826497EAD0039CF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "learm-swiftioTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hafiznaufalr.learm-swiftioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/learm-swiftio.app/learm-swiftio";
+			};
+			name = Release;
+		};
+		6995D40A26497EAD0039CF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "learm-swiftioUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hafiznaufalr.learm-swiftioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "learm-swiftio";
+			};
+			name = Debug;
+		};
+		6995D40B26497EAD0039CF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "learm-swiftioUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hafiznaufalr.learm-swiftioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "learm-swiftio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6995D3D926497EAB0039CF92 /* Build configuration list for PBXProject "learm-swiftio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6995D40126497EAD0039CF92 /* Debug */,
+				6995D40226497EAD0039CF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6995D40326497EAD0039CF92 /* Build configuration list for PBXNativeTarget "learm-swiftio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6995D40426497EAD0039CF92 /* Debug */,
+				6995D40526497EAD0039CF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6995D40626497EAD0039CF92 /* Build configuration list for PBXNativeTarget "learm-swiftioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6995D40726497EAD0039CF92 /* Debug */,
+				6995D40826497EAD0039CF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6995D40926497EAD0039CF92 /* Build configuration list for PBXNativeTarget "learm-swiftioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6995D40A26497EAD0039CF92 /* Debug */,
+				6995D40B26497EAD0039CF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6995D3D626497EAB0039CF92 /* Project object */;
+}
